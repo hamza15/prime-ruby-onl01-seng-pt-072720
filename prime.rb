@@ -5,6 +5,7 @@ def prime?(value)
   else
     2..value-1.each do |n|
       return false if value % n == 0
+    end
   end
   return true
 end
