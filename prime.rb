@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(value)
   if value % 2 == 0 
-    return true 
+    return false 
   else
     return false 
   end
